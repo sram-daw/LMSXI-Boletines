@@ -35,6 +35,17 @@
         <pais>España</pais>
         <estrellas>3</estrellas>
         <descripcion>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras aliquet finibus quam ut auctor. Phasellus odio arcu, blandit a risus a, rhoncus laoreet dui.</descripcion>
-        <habitaciones individuales="40" dobles="50" triples="30" suites="7"/>
+        <habitaciones individuales="40" dobles="50" triples="30" suites="2"/>
+    </hotel>
+
+    <hotel>
+        <nombre>Hotel Paraíso</nombre>
+        <tlf>983627289</tlf>
+        <direccion calle="Calle Flores" numero="2"/>
+        <ciudad>Vigo</ciudad>
+        <pais>España</pais>
+        <estrellas>4</estrellas>
+        <descripcion>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras aliquet finibus quam ut auctor. Phasellus odio arcu, blandit a risus a, rhoncus laoreet dui.</descripcion>
+        <habitaciones individuales="60" dobles="70" triples="45" suites="5"/>
     </hotel>
 </hoteles>
