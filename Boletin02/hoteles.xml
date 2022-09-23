@@ -7,3 +7,34 @@
     Probar si es un documento bien formado.
 -->
 
+<!DOCTYPE hoteles [
+<!ELEMENT hoteles (hotel+)>
+<!ELEMENT hotel (nombre,tlf,direccion,ciudad,pais,estrellas,descripcion,habitaciones)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT tlf (#PCDATA)>
+<!ELEMENT direccion (#PCDATA)>
+    <!ATTLIST direccion calle CDATA #REQUIRED>
+    <!ATTLIST direccion numero CDATA #REQUIRED>
+<!ELEMENT ciudad (#PCDATA)>
+<!ELEMENT pais (#PCDATA)>
+<!ELEMENT estrellas (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT habitaciones (#PCDATA)>
+    <!ATTLIST habitaciones individuales CDATA #REQUIRED>
+    <!ATTLIST habitaciones dobles CDATA #REQUIRED>
+    <!ATTLIST habitaciones triples CDATA #REQUIRED>
+    <!ATTLIST habitaciones suites CDATA #REQUIRED>
+]>
+
+<hoteles>
+    <hotel>
+        <nombre>Hotel Caribe</nombre>
+        <tlf>986456534</tlf>
+        <direccion calle="Avenida de Madrid" numero="45"/>
+        <ciudad>Madrid</ciudad>
+        <pais>España</pais>
+        <estrellas>3</estrellas>
+        <descripcion>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras aliquet finibus quam ut auctor. Phasellus odio arcu, blandit a risus a, rhoncus laoreet dui.</descripcion>
+        <habitaciones individuales="40" dobles="50" triples="30" suites="7"/>
+    </hotel>
+</hoteles>
