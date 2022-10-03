@@ -5,6 +5,6 @@
 ]>
 <colores>
     <color>azul marino</color>
-    <color>negro</color>
+    <color>negro</color> <!-- "negro" debe ir encerrado en la etiqueta correspondiente.-->
     <color>amarillo</color>
 </colores>

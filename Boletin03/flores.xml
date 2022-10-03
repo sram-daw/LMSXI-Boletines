@@ -5,4 +5,5 @@
     ]>
 
     <flores>
+        <flor>Amapola</flor> <!-- Faltaba, como mínimo, un elemento "flor" ya que en el DTD se especifica que debe contener 1 o más-->
     </flores>
