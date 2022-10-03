@@ -3,5 +3,5 @@
     <!ELEMENT numeros (#PCDATA)
 >]>
 <numeros>
-    <numero>25</numero>
+    25 <!-- Según el DTD, la etiqueta <numeros> solo puede contener datos de tipo #PCDATA, no otras etiquetas.-->
 </numeros>
