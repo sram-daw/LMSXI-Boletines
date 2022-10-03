@@ -9,16 +9,12 @@
   (#PCDATA)>
   ]>
   <musicos>
-    <musico>
-      <nombre>Antonio Vivaldi</nombre>
-      <apodo>El cura
-  pelirrojillo</apodo>
+    <musico> <!-- El elemento "músico" puede contener solo un elemento nombre o un elemento apodo, pero no ambas.-->
+      <nombre>Antonio Vivaldi</nombre> 
       <fechaNacimiento>4 de marzo de
   1678</fechaNacimiento>
     </musico>
     <musico>
-      <nombre>Johann Sebastian
-  Bach</nombre>
       <apodo>El viejo peluca</apodo>
       <fechaNacimiento>21 de marzo
   de 1685</fechaNacimiento>
