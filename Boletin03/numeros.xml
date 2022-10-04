@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE numeros [
-    <!ELEMENT numeros (#PCDATA)
->]>
+    <!ELEMENT numeros (#PCDATA)>
+]>
 <numeros>
-    25 <!-- Según el DTD, la etiqueta <numeros> solo puede contener datos de tipo #PCDATA, no otras etiquetas.-->
+    25
+    <!-- Según el DTD, la etiqueta <numeros> solo puede contener datos de tipo #PCDATA, no otras etiquetas.-->
 </numeros>

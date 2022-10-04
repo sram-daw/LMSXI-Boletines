@@ -1,21 +1,22 @@
 <?xml version="1.0" encoding="UTF- 8"?>
 <!DOCTYPE sistemaSolar [
-    <!ELEMENT sistemaSolar (cuerpo*)>
-    <!ELEMENT cuerpo ((planeta|satelite|asteroide)+)>
-    <!ELEMENT planeta (#PCDATA)>
-    <!ELEMENT satelite (#PCDATA)>
-    <!ELEMENT asteroide (#PCDATA)>
-    ]>
-    
-    <sistemaSolar> <!-- Faltaba la etiqueta de apertura del elemento raíz-->
-      <cuerpo>
-        <planeta>Tierra</planeta>
-      </cuerpo>
-      <cuerpo>
-        <satelite>Luna</satelite> <!-- Dentro de la etiqueta <cuerpo> solo puede ir una o más etiquetas <planeta>, <satélite> o <asteroide>, pero no dos distintas.-->
-      </cuerpo>
-      <cuerpo> 
-        <asteroide>Ceres</asteroide> <!-- La etiqueta de <asteroide> estaba mal anidada: debía estar contenida en una de <cuerpo>-->
-      </cuerpo>
-    </sistemaSolar>
+  <!ELEMENT sistemaSolar (cuerpo*)>
+  <!ELEMENT cuerpo ((planeta|satelite|asteroide)+)>
+  <!ELEMENT planeta (#PCDATA)>
+  <!ELEMENT satelite (#PCDATA)>
+  <!ELEMENT asteroide (#PCDATA)>
+]>
+
+<sistemaSolar>
+  <!-- Faltaba la etiqueta de apertura del elemento raíz-->
+  <cuerpo>
+    <planeta>Tierra</planeta>
+  </cuerpo>
+  <cuerpo>
+    <satelite>Luna</satelite> <!-- Dentro de la etiqueta <cuerpo> solo puede ir una o más etiquetas <planeta>, <satélite> o <asteroide>, pero no dos distintas.-->
+  </cuerpo>
+  <cuerpo>
+    <asteroide>Ceres</asteroide> <!-- La etiqueta de <asteroide> estaba mal anidada: debía estar contenida en una de <cuerpo>-->
+  </cuerpo>
+</sistemaSolar>
     
